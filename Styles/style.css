@@ -17,6 +17,7 @@
     border: none;
 }
 
+
 /* text colors */
 .first-text{
     color: #4E47FF;
@@ -81,7 +82,50 @@ nav{
     font-size: 24px;
 }
 .about-image{
-    border-radius: 15px;
+    border-radius: 25px;
     height: 328px;
     width: 403px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* user section */
+
+.user{
+    border-radius: 10px;
+    padding: 50px 140px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.user-bg{
+    background-color: #D6D5FF;
+}
+.user-heading{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+.user-ratio{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.user-item{
+    margin-bottom: 0;
+}
+.user-description{
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
 }
