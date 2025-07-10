@@ -1,4 +1,4 @@
-
+/* font name */
 
 .raleway-name {
   font-family: "Raleway", sans-serif;
@@ -59,4 +59,29 @@ nav{
 .banner-title{
     font-weight: bold;
     font-size: 65px;
+}
+
+/* about section */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px;
+}
+.about-intro{
+    width: 517px;
+    height: 203px;
+}
+.about-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.about-details{
+    font-weight: 400;
+    font-size: 24px;
+}
+.about-image{
+    border-radius: 15px;
+    height: 328px;
+    width: 403px;
 }
