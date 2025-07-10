@@ -28,16 +28,35 @@
     color: #252432;
 }
 
+/* Header */
+.header{
+    height: 698px;
+    background-image: url(../Assets/Hero-bg.png);
+    margin-bottom: 0;
+}
+
 
 /* Nav Style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    /* margin: 50px 150px; */
+    margin: 0px 150px;
 }
 
 .nav-logo{
     font-weight: 900;
     font-size: 34px;
+}
+
+/* banner style */
+.banner{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 37px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
 }
